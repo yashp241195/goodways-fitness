@@ -1,0 +1,79 @@
+Inside "home.php"
+
+<select id="exercise_category_ws" class="form-control">
+    <option value="Neck Pain">Neck Pain</option>
+    <option value="Back Pain">Back Pain</option>
+    <option value="Knee Pain">Knee Pain</option>
+</select>
+
+Inside "fill_table_details.js"
+
+// opt is "exercise category" in workout table
+
+switch(opt){
+
+	case "Neck Pain": 
+	        var my_rows = [ 
+	          
+	          // exercise name,sets,body area
+	            
+	            ["Figure 8","3","Lower Abs"],
+	            ["Figure C","3","Lower Abs"], 
+	            
+	        ];
+
+	        break;
+
+        case "Back Pain": 
+	            var my_rows = [ 
+	              // exercise name,sets,body area
+
+	                ["Reverse Sit ups","3","Lower Abs"],
+	                ["Single Leg up","3","Lower Abs"], 
+	            ];
+
+	        break;
+
+        case "Knee Pain": 
+            var my_rows = [ 
+              // exercise name,sets,body area
+
+                ["Figure 8","3","Lower Abs"],
+                ["Figure C","3","Lower Abs"], 
+            ];
+
+        break;
+
+
+    }
+
+
+Inside "insert_row.php"
+
+switch($body_area){
+
+    case "Neck Pain": 
+    	// 10% increment of reps_target
+    	$factor = 1.1; 
+    	break;
+    case "Back Pain": 
+    	// 20% increment of reps_target
+    	$factor = 1.2; 
+    	break;
+    case "Knee Pain": 
+      	// 30% increment of reps_target
+	    $factor = 1.3; 
+	    break;
+
+}
+
+Inside "register_new.php"
+
+$passkey = "2495"; // change passkey to register new admin
+
+Inside "common.php"
+
+$servername = "localhost";
+$username = "root"; // not known
+$password = ""; // not known
+$db = "drdpshar_goodwayfitness";
