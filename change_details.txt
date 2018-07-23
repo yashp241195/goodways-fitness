@@ -1,73 +1,261 @@
+
 Inside "home.php"
 
-<select id="exercise_category_ws" class="form-control">
-    <option value="Neck Pain">Neck Pain</option>
-    <option value="Back Pain">Back Pain</option>
-    <option value="Knee Pain">Knee Pain</option>
+
+<select id="exercise_category_ws" class="form-
+control">
+    
+    <option value="Basic Ex.">Basic Ex.</option>
+	<option value="Neck Pain">Neck Pain</option>
+	<option value="Back Pain">Back Pain</option>
+	<option value="Knee Pain">Knee Pain</option>
+	<option value="Functional Basic">Functional Basic</option>
+	<option value="Functional Back Pain">Functional Back Pain</option>
+	<option value="Functional Knee Pain">Functional Knee Pain</option>
+
 </select>
+
+
 
 Inside "fill_table_details.js"
 
 // opt is "exercise category" in workout table
 
-switch(opt){
-
-	case "Neck Pain": 
-	        var my_rows = [ 
-	          
-	          // exercise name,sets,body area
-	            
-	            ["Figure 8","3","Lower Abs"],
-	            ["Figure C","3","Lower Abs"], 
-	            
-	        ];
-
-	        break;
-
-        case "Back Pain": 
-	            var my_rows = [ 
-	              // exercise name,sets,body area
-
-	                ["Reverse Sit ups","3","Lower Abs"],
-	                ["Single Leg up","3","Lower Abs"], 
-	            ];
-
-	        break;
-
-        case "Knee Pain": 
+        switch(opt){
+        
+        	case "Basic Ex.": 
+        
             var my_rows = [ 
-              // exercise name,sets,body area
+        
+        		// exercise name,sets,body area
+        
+        			["Figure 8","3","Lower Abs"],			        
+        			["Figure C","3","Lower Abs"],			   
+        			["Both Leg Cycling","3","Lower Abs"],	    
+        			["Open Leg 60° Leg Raise","3","Lower Abs"],
+        			["Standing Leg Side","3","Lower Abs"],
+        			["4 Crunch","3","Middle Abs"],
+        			["V Sit Ups","3","Middle Abs"],
+        			["Plank Moving","3","Middle Abs"],
+        			["Titanic Side Bend","3","Middle Abs"],
+        			["Kick to Lunge","3","Hip & Thighs"],
+        			["Side Lunge","3","Hip & Thighs"],
+        			["Y Curl","3","Hip & Thighs"],
+        			["Donkey Kick","3","Hip & Thighs"],
+        
+        		];
+        
+        	break;
+        
+        	
+        
+        	case "Neck Pain": 
+        	        	
+        		var my_rows = [ 
+        			        
+        			// exercise name,sets,body area
+        	            
+        			["Figure 8","3","Lower Abs"],
+        			["Figure C","3","Lower Abs"], 
+        			["Both Leg Cycling","3","Lower Abs"],	    
+        			["Open Leg 60° Leg Raise","3","Lower Abs"],
+        			["Standing Leg Side","3","Lower Abs"],
+        			["4 Crunch","3","Middle Abs"],
+        			["V Sit Ups","3","Middle Abs"],
+        			["Plank Moving","3","Middle Abs"],
+        			["Titanic Side Bend","3","Middle Abs"],
+        			["Kick to Lunge","3","Hip & Thighs"],
+        			["Side Lunge","3","Hip & Thighs"],
+        			["Y Curl","3","Hip & Thighs"],
+        			["Donkey Kick","3","Hip & Thighs"],
+        
+        		];
+        
+        			        
+        	break;
+        
+        
+                
+        	case "Back Pain": 
+        		            
+        		var my_rows = [ 
+        			              
+        		// exercise name,sets,body area			  
+        
+        			["Reverse Sit ups","3","Lower Abs"],
+        			["Single Leg up","3","Lower Abs"], 
+        			["Pawanmuktasan","3","Lower Abs"], 
+        			["Bhujangasan","3","Lower Abs"],
+        			["Standing Leg Side","3","Lower Abs"],
+        			["4 Crunch","3","Middle Abs"],
+        			["V Sit Ups","3","Middle Abs"],
+        			["Plank Knee Touch","3","Middle Abs"],
+        			["Titanic Side Bend","3","Middle Abs"],
+        			["Kick to Lunge","3","Hip & Thighs"],
+        			["Side Lunge","3","Hip & Thighs"],
+        			["Y Curl","3","Hip & Thighs"],
+        			["Donkey Kick","3","Hip & Thighs"],
+        			          
+        		 ];
+        
+        	break;
+        
+                
+        
+        	case "Knee Pain": 
+        		            
+        		var my_rows = [ 
+        		              
+        			// exercise name,sets,body area
+        
+        			["Figure 8","3","Lower Abs"],
+        			["Figure C","3","Lower Abs"], 
+        			["Both Leg Cycling","3","Lower Abs"],
+        			["Open Leg 60° Leg Raise","3","Lower Abs"],
+        			["Standing Leg Side","3","Lower Abs"],
+        			["4 Crunch","3","Middle Abs"],
+        			["V Sit Ups","3","Middle Abs"],
+        			["Plank Moving","3","Middle Abs"],
+        			["Titanic Side Bend","3","Middle Abs"],
+        			["L Shape","3","Hip & Thighs"],
+        			["Leg Open Close","3","Hip & Thighs"],
+        			["Knee Stretching","3","Hip & Thighs"],
+        			["Basic Kick","3","Hip & Thighs"],
+        		  
+        		];
+        
+        		        
+        	break;
+        	
+        	case "Functional Basic": 
 
-                ["Figure 8","3","Lower Abs"],
-                ["Figure C","3","Lower Abs"], 
-            ];
 
-        break;
+        
+                var my_rows = [ 
+        
+        		// exercise name,sets,body area
+        
+        			["Stepper R-L High Knee","3","Lower Abs"],			        
+        			["Stepper Run","3","Lower Abs"],			   
+        			["Stepper R-L Toe Touch","3","Lower Abs"],	    
+        			["Stepper Front Hop","3","Lower Abs"],
+        			["Standing Leg Side","3","Lower Abs"],
+        			["Stepper Basic Jumping Jack","3","Middle Abs"],
+        			
+        
+        		];
+        
+        	    break;
+        	
+        	case "Functional Back Pain": 
+        
+                var my_rows = [ 
+            
+            		// exercise name,sets,body area
+            
+            			["Open Leg High Knee R&L","3","Lower Abs"],			        
+            			["V Run","3","Lower Abs"],			   
+            			["Knee Repeater","3","Lower Abs"],	    
+            			["Back Pain Ex.","3","Lower Abs"],
+            			["Back Pain Ex.","3","Lower Abs"],
+            			
+            
+            		];
+        
+        	break;
 
+   	
+        	case "Functional Knee Pain": 
+        
+                var my_rows = [ 
+            
+            		    // exercise name,sets,body area
+            
+            			["Open Leg High Knee R&L","3","Lower Abs"],			        
+            			["V Run","3","Lower Abs"],			   
+            			["Knee Repeater","3","Lower Abs"],	    
+            			["Knee Pain Ex.","3","Lower Abs"],
+            			["Knee Pain Ex.","3","Lower Abs"],
+            			
+            		];
+            
+            	break;
+        	
+        	
+        
+           }
 
-    }
 
 
 Inside "insert_row.php"
 
-switch($body_area){
 
-    case "Neck Pain": 
-    	// 10% increment of reps_target
-    	$factor = 1.1; 
-    	break;
-    case "Back Pain": 
-    	// 20% increment of reps_target
-    	$factor = 1.2; 
-    	break;
-    case "Knee Pain": 
-      	// 30% increment of reps_target
-	    $factor = 1.3; 
-	    break;
+if($arr_vals[$i] == 0 or $arr_vals[$i] == ""){
+
+    // cases according to exercise category
+
+    $p = array_search("body_area",$arr_names);
+    $body_area = $arr_vals[$p];
+    $factor = 1;
+
+    switch($body_area){
+
+        case "Neck Pain": 
+            // 15% increment of reps_target
+            $factor = 1.15; 
+            break;
+        case "Back Pain": 
+            // 15% increment of reps_target
+            $factor = 1.15; 
+            break;
+        case "Knee Pain": 
+            // 15% increment of reps_target
+            $factor = 1.15; 
+            break;
+        case "Basic Ex.": 
+            // 15% increment of reps_target
+            $factor = 1.15; 
+            break;
+        case "Functional Basic": 
+            // 15% increment of reps_target
+            $factor = 1.15; 
+            break;
+        case "Functional Back Pain": 
+            // 15% increment of reps_target
+            $factor = 1.15; 
+            break;
+        case "Functional Knee Pain": 
+            // 15% increment of reps_target
+            $factor = 1.15; 
+            break;
+
+    }
+
+
+    $p = array_search("reps_current",$arr_names);
+    $arr_vals[$i] = (string)($factor*$arr_vals[$p]);
 
 }
 
+
+
 Inside "register_new.php"
 
-$passkey = "2495"; // change passkey to register new admin
+
+
+$passkey = "2495"; // change passkey to 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
