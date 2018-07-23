@@ -71,9 +71,3 @@ Inside "register_new.php"
 
 $passkey = "2495"; // change passkey to register new admin
 
-Inside "common.php"
-
-$servername = "localhost";
-$username = "root"; // not known
-$password = ""; // not known
-$db = "drdpshar_goodwayfitness";
