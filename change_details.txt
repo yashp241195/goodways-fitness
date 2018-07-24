@@ -38,10 +38,10 @@ Inside "fill_table_details.js"
         			["V Sit Ups","3","Middle Abs"],
         			["Plank Moving","3","Middle Abs"],
         			["Titanic Side Bend","3","Middle Abs"],
-        			["Kick to Lunge","3","Hip & Thighs"],
-        			["Side Lunge","3","Hip & Thighs"],
-        			["Y Curl","3","Hip & Thighs"],
-        			["Donkey Kick","3","Hip & Thighs"],
+        			["Kick to Lunge","3","Hip and Thighs"],
+        			["Side Lunge","3","Hip and Thighs"],
+        			["Y Curl","3","Hip and Thighs"],
+        			["Donkey Kick","3","Hip and Thighs"],
         
         		];
         
@@ -64,10 +64,10 @@ Inside "fill_table_details.js"
         			["V Sit Ups","3","Middle Abs"],
         			["Plank Moving","3","Middle Abs"],
         			["Titanic Side Bend","3","Middle Abs"],
-        			["Kick to Lunge","3","Hip & Thighs"],
-        			["Side Lunge","3","Hip & Thighs"],
-        			["Y Curl","3","Hip & Thighs"],
-        			["Donkey Kick","3","Hip & Thighs"],
+        			["Kick to Lunge","3","Hip and Thighs"],
+        			["Side Lunge","3","Hip and Thighs"],
+        			["Y Curl","3","Hip and Thighs"],
+        			["Donkey Kick","3","Hip and Thighs"],
         
         		];
         
@@ -91,10 +91,10 @@ Inside "fill_table_details.js"
         			["V Sit Ups","3","Middle Abs"],
         			["Plank Knee Touch","3","Middle Abs"],
         			["Titanic Side Bend","3","Middle Abs"],
-        			["Kick to Lunge","3","Hip & Thighs"],
-        			["Side Lunge","3","Hip & Thighs"],
-        			["Y Curl","3","Hip & Thighs"],
-        			["Donkey Kick","3","Hip & Thighs"],
+        			["Kick to Lunge","3","Hip and Thighs"],
+        			["Side Lunge","3","Hip and Thighs"],
+        			["Y Curl","3","Hip and Thighs"],
+        			["Donkey Kick","3","Hip and Thighs"],
         			          
         		 ];
         
@@ -117,10 +117,10 @@ Inside "fill_table_details.js"
         			["V Sit Ups","3","Middle Abs"],
         			["Plank Moving","3","Middle Abs"],
         			["Titanic Side Bend","3","Middle Abs"],
-        			["L Shape","3","Hip & Thighs"],
-        			["Leg Open Close","3","Hip & Thighs"],
-        			["Knee Stretching","3","Hip & Thighs"],
-        			["Basic Kick","3","Hip & Thighs"],
+        			["L Shape","3","Hip and Thighs"],
+        			["Leg Open Close","3","Hip and Thighs"],
+        			["Knee Stretching","3","Hip and Thighs"],
+        			["Basic Kick","3","Hip and Thighs"],
         		  
         		];
         
@@ -135,12 +135,12 @@ Inside "fill_table_details.js"
         
         		// exercise name,sets,body area
         
-        			["Stepper R-L High Knee","3","Lower Abs"],			        
-        			["Stepper Run","3","Lower Abs"],			   
-        			["Stepper R-L Toe Touch","3","Lower Abs"],	    
-        			["Stepper Front Hop","3","Lower Abs"],
-        			["Standing Leg Side","3","Lower Abs"],
-        			["Stepper Basic Jumping Jack","3","Middle Abs"],
+        			["Stepper R-L High Knee","0","Functional"],			        
+        			["Stepper Run","0","Functional"],			   
+        			["Stepper R-L Toe Touch","0","Functional"],	    
+        			["Stepper Front Hop","0","Functional"],
+        			["Standing Leg Side","0","Functional"],
+        			["Stepper Basic Jumping Jack","0","Functional"],
         			
         
         		];
@@ -153,11 +153,11 @@ Inside "fill_table_details.js"
             
             		// exercise name,sets,body area
             
-            			["Open Leg High Knee R&L","3","Lower Abs"],			        
-            			["V Run","3","Lower Abs"],			   
-            			["Knee Repeater","3","Lower Abs"],	    
-            			["Back Pain Ex.","3","Lower Abs"],
-            			["Back Pain Ex.","3","Lower Abs"],
+            			["Open Leg High Knee R-L","0","Functional"],			        
+            			["V Run","0","Functional"],			   
+            			["Knee Repeater","0","Functional"],	    
+            			["Back Pain Ex.","0","Functional"],
+            			["Back Pain Ex.","0","Functional"],
             			
             
             		];
@@ -171,11 +171,11 @@ Inside "fill_table_details.js"
             
             		    // exercise name,sets,body area
             
-            			["Open Leg High Knee R&L","3","Lower Abs"],			        
-            			["V Run","3","Lower Abs"],			   
-            			["Knee Repeater","3","Lower Abs"],	    
-            			["Knee Pain Ex.","3","Lower Abs"],
-            			["Knee Pain Ex.","3","Lower Abs"],
+            			["Open Leg High Knee R-L","0","Functional"],			        
+            			["V Run","0","Functional"],			   
+            			["Knee Repeater","0","Functional"],	    
+            			["Knee Pain Ex.","0","Functional"],
+            			["Knee Pain Ex.","0","Functional"],
             			
             		];
             
